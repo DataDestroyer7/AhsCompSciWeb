@@ -1,0 +1,15 @@
+body{
+  background-color: #34435dff;
+}
+.banner{
+  background-image: url('assets/bannerbackground2.jpg');
+}
+.titleDiv{
+  text-align: center;
+  color: #ffffff;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+}
