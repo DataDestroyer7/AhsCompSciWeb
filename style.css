@@ -1,8 +1,26 @@
+*{
+  margin: 0;
+}
 body{
   background-color: #34435dff;
 }
 .banner{
-  background-image: url('assets/bannerbackground2.jpg');
+  width: 100%;
+  height: auto;
+}
+.bannerimg{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  margin-top: -8%;
+}
+.logo{
+  position: absolute;
+  top:33%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  width: 13%;
 }
 .titleDiv{
   text-align: center;
@@ -12,4 +30,10 @@ body{
   letter-spacing: 0.1em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  line-height: 400%;
+  font-size: 130%;
 }
