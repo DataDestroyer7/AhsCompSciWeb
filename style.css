@@ -55,7 +55,7 @@ body{
     flex-direction: row;
     column-gap: 5%;
 }
-.nav h1{
+.nav a{
   color: #ffffff;
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 1em;
@@ -63,4 +63,8 @@ body{
   letter-spacing: 0.1em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
+  text-decoration: none;
+}
+.hidden{
+  display: none;
 }
