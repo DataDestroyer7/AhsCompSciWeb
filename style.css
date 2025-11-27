@@ -68,3 +68,26 @@ body{
 .hidden{
   display: none;
 }
+.robotics{
+  color: white;
+  font-family: Raleway, Helvetica, sans-serif;
+}
+.roboticsTitle{
+  width: 67%;
+  margin: auto;
+  letter-spacing: 0.1em;
+}
+.roboticsTitle h1{
+  font-weight: 700;
+  padding-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.roboticsTitle h3{
+  padding-top: 0.855em;
+  padding-bottom: 3em;
+  text-transform: uppercase;
+}
+.roboticsTitle p{
+  letter-spacing: 0.1em;
+  line-height: 200%;
+}
